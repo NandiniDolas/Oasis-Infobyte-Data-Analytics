@@ -1,1 +1,48 @@
+# Customer Segmentation Analysis
 
+## Project Overview
+This project uses customer data and K-Means clustering to identify groups of mall customers based on their annual income and spending score.
+
+## Objectives
+- Explore customer demographics and spending patterns.
+- Visualize relationships between annual income and spending score.
+- Apply K-Means clustering to segment customers.
+- Analyze cluster characteristics and suggest marketing strategies.
+
+## Dataset
+- **File:** `Mall_Customers.csv`
+- **Records:** 200 customers
+- **Columns:** 5
+
+### Dataset Features
+- CustomerID
+- Gender
+- Age
+- Annual Income (k$)
+- Spending Score (1–100)
+
+## Tools and Libraries
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+## Methodology
+1. Loaded and explored the dataset.
+2. Checked summary statistics and customer distributions.
+3. Visualized age, annual income, and spending score.
+4. Standardized annual income and spending score.
+5. Used the Elbow Method to help select the number of clusters.
+6. Applied K-Means clustering with 5 clusters.
+7. Compared cluster profiles and developed marketing recommendations.
+
+## Conclusion
+Customer segmentation can help businesses understand different spending patterns and design more targeted marketing strategies.
+
+## Author
+Nandini Dolas
+
+## Internship
+Oasis Infobyte — Data Analytics Internship
