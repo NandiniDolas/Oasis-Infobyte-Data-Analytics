@@ -58,4 +58,5 @@ The model with the highest weighted F1-score is selected as the best-performing 
 This project demonstrates how exploratory data analysis and machine learning can be applied to predict wine quality categories using chemical properties. It also highlights the importance of class distribution, model evaluation, and feature importance in a classification task.
 
 ## Author
+Nandini Dolas
 Completed as part of the Oasis Infobyte Data Analytics Internship.
