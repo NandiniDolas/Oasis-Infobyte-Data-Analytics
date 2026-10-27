@@ -1,0 +1,42 @@
+# SMS Spam Detection
+
+## Project Overview
+This project uses machine learning and natural language processing to classify SMS messages as spam or legitimate (ham).
+
+## Dataset
+- **Name:** SMS Spam Collection
+- **Source:** UCI Machine Learning Repository
+- **Target labels:** Ham and Spam
+
+## Technologies Used
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- TF-IDF Vectorization
+- Multinomial Naive Bayes
+
+## Methodology
+1. Loaded and explored the dataset.
+2. Checked for missing values and duplicate records.
+3. Removed duplicate rows.
+4. Converted labels into numerical values.
+5. Split the dataset into training and testing sets.
+6. Converted SMS text into TF-IDF features.
+7. Trained a Multinomial Naive Bayes classifier.
+8. Evaluated the model using accuracy, precision, recall, F1-score, and a confusion matrix.
+9. Tested the model on sample messages.
+
+## Results
+- **Accuracy:** 97.39%
+- **Ham F1-score:** 0.99
+- **Spam F1-score:** 0.89
+- **Spam Recall:** 0.79
+
+## Conclusion
+The model achieved 97.39% accuracy on the test dataset. It performed well overall, although some spam messages were missed. Further improvements could focus on increasing spam recall.
+
+## Author
+Nandini Dolas
+Data Analytics Internship Project
